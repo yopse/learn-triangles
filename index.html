@@ -1,29 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Triangle's</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-     <h1>Is Triangle ?</h1>
-
-     <label for="angle1">angle1</label>
-     <input type="number" class="angleinput" />
-
-     <label for="angle2">angle2</label>
-     <input type="number" class="angleinput" />
-
-     <label for="angle3">angle3</label>
-     <input type="number" class="angleinput" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+  </head>
+  <body>
     
-     <button>Is Triangle ?</button>
-     <div id="output">
+      <nav>
+          <div class="logo"><h1>Fun With Triangle</h1></div>
+          <ul>
+            <li class="nav-item"><a class="nav-link" href="index.html">Is Triangle ?</a></li>
+            <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
+            <li class="nav-item"><a class="nav-link" href="hypotenuse.html">Hypotenuse</a></li>
+            <li class="nav-item"><a class="nav-link" href="areaoft.html">Area of Triangle</a></li>
+          </ul>
+      </nav>   
+   
 
-     </div>
-    
+    <div class="container">
+      <h1>Is Triangle ?</h1>
+
+      <div class="optionsbox">
+        <label class="anglelabel" for="angle1">Angle1</label>
+        <input class="enteryinput angleinput" type="number"  />
+
+        <label class="anglelabel" for="angle2">Angle2</label>
+        <input class="enteryinput angleinput" type="number"  />
+
+        <label class="anglelabel" for="angle3">Angle3</label>
+        <input  class="enteryinput angleinput" type="number"  />
+
+        <button id="triangleBtn">Is Triangle ?</button>
+        <div id="output"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="iconbox">
+        <ul class="iconcontainer">
+          <li class="icon-item">
+            <a class="link c" href="https://www.linkedin.com/in/archish-jain-2a5413214/"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li class="icon-item">
+            <a class="link c" href="https://github.com/yopse">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a
+              class="link c"
+              href="https://www.instagram.com/alignedtoachieve/?hl=en"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <p class="lastmark">© Mars, 2021  is a registered trademark of Neogcamp.</p>
+    </div>
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
